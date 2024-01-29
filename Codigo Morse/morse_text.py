@@ -9,7 +9,7 @@ def morse_to_txt(message):
 
     for morse_code in message:
 
-        # Verificamos si el codigo morse se encuentra en el diccioario inverso.
+        # Verificamos si el código morse se encuentra en el diccionario inverso.
         if morse_code in MORSE_MESSAGE:
             text.append(MORSE_MESSAGE[morse_code])
 

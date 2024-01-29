@@ -1,4 +1,4 @@
-# Creamos un diccionario que contiene las letras del alfabeto con su correspondiente codigo morse.
+# Diccionario que contiene las letras del alfabeto con su correspondiente código morse.
 MORSECODE = { 
     "A": ".-", 
     "B": "-...", 
@@ -29,5 +29,5 @@ MORSECODE = {
     }
 
 
-# Creamos un diccionario inverso que contiene código morse a letras.
+# Diccionario invertido de código morse a letras.
 MORSE_MESSAGE = {value: key for key, value in MORSECODE.items()}
